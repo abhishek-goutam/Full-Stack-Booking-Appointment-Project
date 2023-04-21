@@ -1,0 +1,24 @@
+{
+  "name": "fullstackbookingappointment",
+  "version": "1.0.0",
+  "description": "Full Stack Booking Appointment Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek-goutam/Full-Stack-Booking-Appointment-Project.git"
+  },
+  "author": "Abhishek Goutam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek-goutam/Full-Stack-Booking-Appointment-Project/issues"
+  },
+  "homepage": "https://github.com/abhishek-goutam/Full-Stack-Booking-Appointment-Project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.2.3",
+    "nodemon": "^2.0.22"
+  }
+}
