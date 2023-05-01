@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Appointment App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body onload="getUsers()">
+    <script src="./client.js"></script>
+    <div class="form">
+        <form>
+            <labelfor="name">Name: </label>
+            <input id="name" type="text" name="name" value=""  >
+            <br>
+            <label for="email">email: </label>
+            <input id="email" type="email" name="email"  >
+            <br>
+            <label for="phone">Phone: </label>
+            <input id="phone" type="text" name="lastname"  >
+            <br>
+            <input id ="submitBtn" type="button" value="submit" onclick="saveUser() ">
+        </form>
+
+    </div>
+    <div class="user-list">
+         <ul id="userListId">
+            
+         </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
